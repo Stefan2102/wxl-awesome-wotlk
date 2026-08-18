@@ -1,0 +1,29 @@
+{
+  "manifest": 1,
+
+  "extension": {
+    "id": "wxl-awesome-wotlk",
+    "version": "1.0.0",
+    "abi": "1.1",
+    "entry": "wxl-awesome-wotlk.dll",
+
+    "hooks": [
+      { "target": "Lua.ValidateFunctionPointer" }
+    ]
+  },
+
+  "deploy": {
+    "mode": "release",
+    "match": "*.dll"
+  },
+
+  "listing": {
+    "title": "Awesome WotLK",
+    "description": "store/description.md",
+    "tagline": "Retail-style nameplate API, unit state predicates, transmog info and a UTF-8 clipboard fix.",
+    "categories": ["interface", "gameplay"],
+    "accent": "#c8a04a"
+  },
+
+  "license": "GPL-3.0-or-later"
+}
